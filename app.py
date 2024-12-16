@@ -136,5 +136,5 @@ if bt1 :
             elif page2=="Perceptron":
                 model = pickle.load(open('pumpkin_perceptron.pkl' , mode='rb'))
             prediksi1 = model.predict(input_df)
-            st.write(f'Buah nya adalah : {prediksi1[0]}')
+            st.write(f'Pumpkin Seeds nya adalah : {prediksi1[0]}')
 
