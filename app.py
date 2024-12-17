@@ -4,11 +4,12 @@ import numpy as np
 import pickle # jika Anda memiliki model yang sudah dilatih
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import export_graphviz
 
 
+st.set_page_config(
+        page_title="Tugas Akhir Prediksi Dataset",
+        page_icon="Logo.png",
+)
 
 
 # Input di sidebar (ganti dengan input yang sesuai untuk model Anda)
