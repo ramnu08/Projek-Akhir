@@ -117,7 +117,7 @@ if bt1 :
                 model = pickle.load(open('fish_perceptron.pkl' , mode='rb'))
             prediksi1 = model.predict(input_df)
             print(prediksi1)
-            st.write(f'Ikan nya adalah : {prediksi1}')
+            st.write(f'Ikan nya adalah : {prediksi1[0]}')
                  
         elif page1=="Dataset Fruit":
             if page2=="SVM":
